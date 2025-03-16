@@ -1,36 +1,39 @@
-# Check ODD or EVEN
-Mode: Easy
+# How to Run the Code
 
-Question: You have given a number N. You have to find out that Sum Up to 0 to N is ODD or EVEN.
+## Easy 2-Step Process
 
+1. **Step 1:**  
+   Open the `user_code.cpp` file and write your solution inside the `solve()` function.
 
-Example-> 
-For N= 5,
-Sum Up to 0 to 5 is  0 + 1 + 2 + 3 + 4 + 5 = 15 which is Odd.
-So answer is ODD.
+2. **Step 2:**  
+   Execute the test runner:
+   - **For Windows:**  
+     You can either open the `run_tests.bat` file (double-click it) or open a terminal in the project directory and type:  
+     ```
+     ./run_tests.bat
+     ```
+   - **For Linux/Mac:**  
+     Open a terminal in the project directory and type:
+     ```
+     ./run_tests.sh
+     ```
 
-For N= 8, 
-Sum Up to 0 to 8 is  0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36 which is Even.
-So answer is EVEN.
+## Test Cases
 
+The test runner automatically processes the three test case files provided in the working directory:
 
-Input Format: The first line contains the number of test cases t;
-The second line contains t test cases, each test case contains a number N.
+- **test1.in:**  
+  A basic test case with simple input values to verify the core functionality of your solution.
 
+- **EdgeCases.in:**  
+  This file contains edge cases (for example, minimal values, maximal values, or boundary conditions) to ensure your solution handles all corner scenarios.
 
-Output Format: For each test case, print "ODD" if the sum is odd, "EVEN" if the sum is even.
+- **custom_tests.in:**  
+  A comprehensive test file that includes a mix of random and specially crafted input values to stress-test your solution’s efficiency and correctness under varied conditions.
 
-The output is strictly in the following way [ALL CAPS] -> for ODD, print "ODD", for EVEN, print "EVEN".
+For each test case, the solution reads the input from the corresponding `.in` file, compares the generated output with the expected output in the `.out` file, and displays whether the test case **PASSED** or **FAILED**.
 
-Constraints:
+---
 
-1 <= N <= 2^31
-
-1 <= t <= 10^4
-
-### Note : You are allowed to use 32bit integer only.
-
-### Expected Time Complexity: O(1)
-### Expected Space Complexity: O(1)
-
-Author: Sujal Singh Negi. Date: 15-03-2025.
+**Author:** Sujal Singh Negi  
+**Date:** 15-03-2025
