@@ -3,7 +3,7 @@
 ## Easy 2-Step Process
 
 1. **Step 1:**  
-   Open the `user_code.cpp` file and write your solution inside the `solve()` function.
+   Open the `user_code.cpp` file for C++ or `UserCode.java` for java and write your solution inside the `solve()` function.
 
 2. **Step 2:**  
    Execute the test runner:
