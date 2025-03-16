@@ -15,7 +15,7 @@ for /f "delims=" %%f in ('dir /b /on *.in') do (
     REM - ActualFile: where the solution will write its output (.actual)
     REM - Timeout: 10 seconds
     REM - Command: "java Main" (which runs the test harness)
-    powershell -ExecutionPolicy Bypass -File run_with_timeout.ps1 -InputFile "%%f" -ExpectedFile "!filename!.out" -ActualFile "!filename!.actual" -Timeout 10 -Command "java Main"
+    powershell -ExecutionPolicy Bypass -File run_with_timeout.ps1 -InputFile "%%f" -ExpectedFile "!filename!.out" -ActualFile "!filename!.actual" -Timeout 1 -Command "java Main"
 )
 
 pause

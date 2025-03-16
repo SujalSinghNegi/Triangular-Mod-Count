@@ -6,7 +6,7 @@ javac Main.java UserCode.java
 for file in *.in; do
     base=$(basename "$file" .in)
     echo "Running test case: $file"
-    timeout 10s java Main < "$file" > "${base}.actual"
+    timeout 1s java Main < "$file" > "${base}.actual"
     if [ $? -eq 124 ]; then
         echo "$file TLE"
     else

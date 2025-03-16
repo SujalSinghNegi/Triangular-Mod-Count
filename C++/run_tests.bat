@@ -14,7 +14,7 @@ for /f "delims=" %%f in ('dir /b /on *.in') do (
     REM -ExpectedFile: corresponding .out file
     REM -ActualFile: where the solution will write its output (.actual)
     REM -Timeout: in seconds (here 2 seconds)
-    powershell -ExecutionPolicy Bypass -File run_with_timeout.ps1 -InputFile "%%f" -ExpectedFile "!filename!.out" -ActualFile "!filename!.actual" -Timeout 10
+    powershell -ExecutionPolicy Bypass -File run_with_timeout.ps1 -InputFile "%%f" -ExpectedFile "!filename!.out" -ActualFile "!filename!.actual" -Timeout 1
 )
 
 pause

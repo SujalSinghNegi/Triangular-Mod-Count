@@ -6,6 +6,6 @@ void solve() {
     // Write your code here
 
     
-    }
+    
 }
 

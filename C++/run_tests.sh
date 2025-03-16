@@ -7,7 +7,7 @@ g++ main.cpp user_code.cpp -o solution
 for file in *.in; do
     base=$(basename "$file" .in)
     echo "Running test case: $file"
-    if timeout 2s ./solution "$file" "${base}.out" "${base}.actual"; then
+    if timeout 1s ./solution "$file" "${base}.out" "${base}.actual"; then
         echo "$file PASSED"
     else
         echo "$file TLE"

@@ -32,17 +32,17 @@ For each test case, output a single line containing the number of indices \( i \
 ## Constraints
 
 ### Subtask 1 (Basic Tests):
-- \( 1 \le t \le 10^4 \)
+- \( 1 \le t \le 10^3 \)
 - \( 1 \le n \le 10^6 \)
 - \( 1 \le k \le 10^5 \)
 
 ### Subtask 2 (Small Tests):
-- \( 1 \le t \le 10^4 \)
+- \( 1 \le t \le 10^3 \)
 - \( 1 \le n \le 10^{12} \)
 - \( 1 \le k \le 10^5 \)
 
 ### Subtask 3 (Large Tests):
-- \( 1 \le t \le 10^4 \)
+- \( 1 \le t \le 10^3 \)
 - \( 1 \le n \le 10^{18} \)
 - \( 1 \le k \le 10^5 \)
 

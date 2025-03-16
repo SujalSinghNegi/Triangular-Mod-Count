@@ -5,7 +5,7 @@ param(
     [string]$ExpectedFile,
     [Parameter(Mandatory=$true)]
     [string]$ActualFile,
-    [int]$Timeout = 10
+    [int]$Timeout = 1
 )
 
 $exePath = ".\solution.exe"
