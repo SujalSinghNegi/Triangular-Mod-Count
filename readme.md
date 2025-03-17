@@ -2,10 +2,10 @@
 
 ## Easy 3-Step Process
 0. **Step 0:**  
-   Open the question.md or question.txt file and read the question.
+   Clone or Download the repo then, Open the question.md or question.txt file and read the question.
 
 1. **Step 1:**  
-   Open the `user_code.cpp` file for C++ or `UserCode.java` for java and write your solution inside the `solve()` function.
+   Open the `user_code.cpp` file for C++ or `UserCode.java` for java and write your solution inside the `solve()` function and save it.
 
 2. **Step 2:**  
    Execute the test runner:
