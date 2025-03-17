@@ -42,4 +42,3 @@ For each test case, output a single line containing the number of indices \( i \
 - 1 ≤ n ≤ 10^18
 
 
-**Note:** \( k \) is always at least 1.

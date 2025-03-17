@@ -40,5 +40,3 @@ Subtask 2 (Small Tests):
 
 Subtask 3 (Large Tests):
 - 1 ≤ n ≤ 10^18
-
-Note: k is always at least 1.
