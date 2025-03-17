@@ -5,7 +5,7 @@
 You are given two integers, **n** and **k**. Define the triangular number \( T(i) \) for any positive integer \( i \) as:
 
 \[
-T(i) = 1 + 2 + ... + i = (i * (i + 1)) / 2
+ T(i) = 1 + 2 + ... + i = sum from 1 to i;
 \]
 
 Your task is to count how many indices \( i \) (where \( 1 \le i \le n \)) satisfy the condition that \( T(i) \) is divisible by \( k \).
