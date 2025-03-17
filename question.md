@@ -5,10 +5,10 @@
 You are given two integers, **n** and **k**. Define the triangular number \( T(i) \) for any positive integer \( i \) as:
 
 \[
-T(i) = 1 + 2 + \dots + i = \frac{i(i+1)}{2}.
+T(i) = 1 + 2 + \dots + i = \frac{i(i+1)}{2}
 \]
 
-Your task is to count how many indices \( i \) (where \( 1 \le i \le n \)) satisfy that \( T(i) \) is divisible by \( k \).
+Your task is to count how many indices \( i \) (where \( 1 \le i \le n \)) satisfy the condition that \( T(i) \) is divisible by \( k \).
 
 For example, if \( n = 5 \) and \( k = 3 \), the triangular numbers and their divisibility by 3 are:
 
@@ -18,7 +18,7 @@ For example, if \( n = 5 \) and \( k = 3 \), the triangular numbers and their di
 - \( T(4) = 10 \)  → Not divisible by 3  
 - \( T(5) = 15 \)  → **Divisible** by 3  
 
-Thus, the answer is **3** because there are 3 indices (2, 3, and 5) where \( T(i) \) is divisible by 3.
+Thus, the answer is **3** because there are 3 indices (2, 3, and 5) for which \( T(i) \) is divisible by 3.
 
 ## Input Format
 
@@ -31,17 +31,17 @@ For each test case, output a single line containing the number of indices \( i \
 
 ## Constraints
 
-### Subtask 1 (Basic Tests):
+### Subtask 1 (Basic Tests)
 - \( 1 \le t \le 10^3 \)
 - \( 1 \le n \le 10^6 \)
 - \( 1 \le k \le 10^5 \)
 
-### Subtask 2 (Small Tests):
+### Subtask 2 (Small Tests)
 - \( 1 \le t \le 10^3 \)
 - \( 1 \le n \le 10^{12} \)
 - \( 1 \le k \le 10^5 \)
 
-### Subtask 3 (Large Tests):
+### Subtask 3 (Large Tests)
 - \( 1 \le t \le 10^3 \)
 - \( 1 \le n \le 10^{18} \)
 - \( 1 \le k \le 10^5 \)
