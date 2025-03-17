@@ -1,6 +1,8 @@
 # How to Run the Code
 
-## Easy 2-Step Process
+## Easy 3-Step Process
+0. **Step 0:**  
+   Open the question.md or question.txt file and read the question.
 
 1. **Step 1:**  
    Open the `user_code.cpp` file for C++ or `UserCode.java` for java and write your solution inside the `solve()` function.
