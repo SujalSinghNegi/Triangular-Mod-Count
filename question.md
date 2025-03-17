@@ -30,21 +30,16 @@ Thus, the answer is **3** because there are 3 indices (2, 3, and 5) for which \(
 For each test case, output a single line containing the number of indices \( i \) (with \( 1 \le i \le n \)) for which \( T(i) \) is divisible by \( k \).
 
 ## Constraints
-
-## Subtask 1 (Basic Tests):
 - 1 ≤ t ≤ 10^3
+- 1 ≤ k ≤ 10^5
+### Subtask 1 (Basic Tests):
 - 1 ≤ n ≤ 10^6
-- 1 ≤ k ≤ 10^5
 
-## Subtask 2 (Small Tests):
-- 1 ≤ t ≤ 10^3
+### Subtask 2 (Small Tests):
 - 1 ≤ n ≤ 10^12
-- 1 ≤ k ≤ 10^5
 
-## Subtask 3 (Large Tests):
-- 1 ≤ t ≤ 10^3
+### Subtask 3 (Large Tests):
 - 1 ≤ n ≤ 10^18
-- 1 ≤ k ≤ 10^5
 
 
 **Note:** \( k \) is always at least 1.

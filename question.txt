@@ -29,19 +29,16 @@ For each test case, output a single line containing the number of indices i (wit
 
 Constraints
 -----------
-Subtask 1 (Basic Tests):
-- 1 ≤ t ≤ 10^3
-- 1 ≤ n ≤ 10^6
+- t ≤ 10^3
 - 1 ≤ k ≤ 10^5
+
+Subtask 1 (Basic Tests):
+- 1 ≤ n ≤ 10^6
 
 Subtask 2 (Small Tests):
-- 1 ≤ t ≤ 10^3
 - 1 ≤ n ≤ 10^12
-- 1 ≤ k ≤ 10^5
 
 Subtask 3 (Large Tests):
-- 1 ≤ t ≤ 10^3
 - 1 ≤ n ≤ 10^18
-- 1 ≤ k ≤ 10^5
 
 Note: k is always at least 1.
