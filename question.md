@@ -5,7 +5,7 @@
 You are given two integers, **n** and **k**. Define the triangular number \( T(i) \) for any positive integer \( i \) as:
 
 \[
-T(i) = 1 + 2 + \dots + i = \frac{i(i+1)}{2}
+T(i) = 1 + 2 + ... + i = (i * (i + 1)) / 2
 \]
 
 Your task is to count how many indices \( i \) (where \( 1 \le i \le n \)) satisfy the condition that \( T(i) \) is divisible by \( k \).
@@ -31,19 +31,20 @@ For each test case, output a single line containing the number of indices \( i \
 
 ## Constraints
 
-### Subtask 1 (Basic Tests)
-- \( 1 \le t \le 10^3 \)
-- \( 1 \le n \le 10^6 \)
-- \( 1 \le k \le 10^5 \)
+## Subtask 1 (Basic Tests):
+- 1 ≤ t ≤ 10^3
+- 1 ≤ n ≤ 10^6
+- 1 ≤ k ≤ 10^5
 
-### Subtask 2 (Small Tests)
-- \( 1 \le t \le 10^3 \)
-- \( 1 \le n \le 10^{12} \)
-- \( 1 \le k \le 10^5 \)
+## Subtask 2 (Small Tests):
+- 1 ≤ t ≤ 10^3
+- 1 ≤ n ≤ 10^12
+- 1 ≤ k ≤ 10^5
 
-### Subtask 3 (Large Tests)
-- \( 1 \le t \le 10^3 \)
-- \( 1 \le n \le 10^{18} \)
-- \( 1 \le k \le 10^5 \)
+## Subtask 3 (Large Tests):
+- 1 ≤ t ≤ 10^3
+- 1 ≤ n ≤ 10^18
+- 1 ≤ k ≤ 10^5
+
 
 **Note:** \( k \) is always at least 1.
